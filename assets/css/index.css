@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-color: rgb(7, 7, 7);
+}
+.content_one{
+    display: flexbox;
+    padding: 6vh;
+    margin: 0;
+}
+
+.btn_lang{
+    position: absolute;
+    top: 4%;
+    right: 10%;
+    width: 10%;
+    background-color: rgba(240, 248, 255, 0);
+    color:aliceblue;
+    height: 5%;
+}
+.opt{
+    background-color: black;
+}
+.btn_enter{
+    background-color:#E50914;
+    color: aliceblue;
+    border: none;
+    position: absolute;
+    top: 4%;
+    width: 5%;
+    height: 5%;
+    border-radius: 5px;
+    right: 3%;
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.content_geral{
+    padding-bottom: 77vh;
+    background-image: url(img/fundo-one.jpg);
+    color: white;
+}
+h1{
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: -160px;
+}
+h2{
+    font-size: 2rem;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: -190px;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: -220px;
+}
+.input-email{
+    position: relative;
+    bottom: -260px;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 280px;
+    width: 40%;
+    height: 10%;
+    border: 0 none;
+    outline: 0;
+}
+.input_btn{
+    position: relative;
+    bottom: -261px;
+    right: 1%;
+    padding: 0;
+    margin: 0;
+    width: 18%;
+    height: 10.1%;
+    background-color:#DC0611;
+    color: white;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 1s;
+}
+.input_btn:hover{
+    background-color: #ff000d;
+    transition: 1s;
+}
+.story-card{
+    display: flex;
+    background-color: black;
+    padding: 70px 45px 70px 45px;
+}
+.story-card-container, .story-card-container2, .story-card-container3, .story-card-container4{
+    height: 297.75px;
+    width: 1008px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-content: normal;
+    justify-content: space-between;
+    align-items: center;
+}
+.story-card-container h1{
+    top: 30px;
+    left: -215px;
+    width: 499.2px;
+    height: 55px;
+    margin-bottom: 8px;
+}
+.story-card-container h2{
+    top: 10px;
+    width: 550.2px;
+    height: 99px;
+    left: -160px;
+    font-size: 1.625rem;
+    margin: 40.5px 0 6.5px 0;
+}
+.story-card-container img{
+    position: relative;
+    width: 483.83px;
+    height: 362.86px;
+    top: -470px;
+    right: -460px;
+}
+.story-card-container2 h1{
+    top: 43px;
+    right: -700px;
+    width: 500px;
+    left: 400px;
+    margin-bottom: 20px;
+}
+.story-card-container2 h2{
+    top: 43px;
+    width: 550px;
+    right: -700px;
+    font-size: 27px;
+    left: 425px;
+}
+.story-card-container2 img{
+    position: relative;
+    top: -270px;
+    left: -250px;
+    height: 450px;
+    width: 500.8px;
+}
+.story-card-container3 h1{
+    top: 50;
+    left: -120px;
+    margin-bottom: 20px;
+}
+.story-card-container3 h2{
+    top: 50px;
+    width: 500px;
+    left: -175px;
+    font-size: 27px;
+}
+.story-card-container3 img{
+    position: relative;
+    top: -350px;
+    right: -480px;
+    height: 350px;
+}
+.card-animation{
+    background-color: black;
+    border: solid gray 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px 12px 0px;
+    position: relative;
+    top: -375px;
+    border-radius: 10px;
+    width: 304.47px;
+    height: 96px;
+    left: -250px;
+}
+.card-animation img{
+    display: flex;
+    height: 52px;
+    width: 41px;
+    position: relative;
+    top: 0px;
+    left: -10px;
+}
+.text1-card{
+    position: absolute;
+    font-size: 16px;
+    left: 65px;
+    font-weight: 600;
+    top: 20px;
+}
+.text2-card{
+    position: relative;
+    color:#0071eb;
+    font-weight: lighter;
+    font-size: 14.4px;
+    top: 15px;
+    left: 2px;
+}
+.card-gif{
+    display: flex;
+    position: relative;
+    top: -25;
+    left: 20px;
+    height: 0px;
+}
+.video{
+    display: flex;
+    position: relative;
+    top: -195px;
+    right: -460px;
+    width:450px;
+    height: 200px ;
+}
+.video2{
+    display: flex;
+    position: relative;
+    top: -150px;
+    right: -480px;
+    width:300px;
+    height: 335px;
+}
+.story-card-container4 h1{
+    top: 20px;
+    right: -350px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.story-card-container4 h2{
+    top: 20px;
+    width: 550px;
+    right: -380px;
+    font-size: 27px;   
+}
+.story-card-container4 img{
+    position: relative;
+    top: -250px;
+    height: 350px;
+    width: 500px;
+    left: -190px;
+}
+hr{
+    border:solid rgba(169, 169, 169, 0.226);
+}
+.footer{
+    background-color: black;
+    padding: 70px 45px 70px 45px;
+    display: flex;
+}
+.footer-content{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: rgba(240, 248, 255, 0.418);
+    padding-left: 100px;
+}
+.footer-content p{
+    position: relative;
+    left: -430px;
+    margin-bottom: 20px;
+    font: 20;
+    font-weight: 600;
+}
+.footer-links {
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.footer-link-item {
+    padding: 0;
+    margin:0 0;
+    display: inline-block;
+    padding: 20px 40px 0 40px;
+    width: 300px;
+}
+.footer-link-item a{
+    color: rgba(240, 248, 255, 0.418);
+    text-decoration: none;
+    font-weight: 100;
+}
+.lang-footer{
+    padding: 10px 70px 10px 70px;
+}
+.btn_lang-footer{
+    position: relative;
+    top: 30px;
+    left: -470px;
+    width: 140px;
+    background-color: rgba(240, 248, 255, 0);
+    color:aliceblue;
+    height: 50px;
+}
+.tlt_footer{
+    padding: 50px 20px 20px 20px;
+}
+.tlt_footer p{
+    position: relative;
+    left: -480px;
+}
