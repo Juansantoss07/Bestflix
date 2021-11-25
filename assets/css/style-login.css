@@ -234,13 +234,17 @@ footer{
     .box{
         height: 60%;
     }
+    .login-remember{
+        font-size: 13px;
+        margin: 0;
+    }
     .check{
-        position: relative;
-        margin-left: 25%;
-        margin-bottom: 5%;
+       margin: 0;
     }
     #link-remember{
-        margin-left: 32%;
+        margin: 0;
+        margin-left: 27%;
+        font-size: 13px;
     }
     .box-cadas{
         margin-left: 25%;
@@ -260,7 +264,7 @@ footer{
     .box-login h1{
         margin-left: 0;
         margin-top: 0;
-        padding-bottom: 0;
+        padding-bottom: 5%;
     }
     .img-logo{
         width: 70px;
@@ -304,5 +308,14 @@ footer{
     .lang-footer{
         margin-top: 5%;
         margin-left: 15%;
+    }
+    .box-captcha{
+        width: 100%;
+        padding-left:0 ;
+    }
+    .box-captcha-content{
+        margin: 0;
+        padding-left: 0;
+        width: 100%;
     }
 }
