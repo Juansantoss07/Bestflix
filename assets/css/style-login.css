@@ -15,6 +15,10 @@ body{
     flex-direction: row;
     justify-content: start;
 }
+.img-logo{
+    width: 180px;
+    height: 50px;
+}
 .box{
     padding: 2% 7% 10% 7%;   
     height: 100%;
@@ -220,4 +224,78 @@ footer{
 .tlt_footer p{
   width: 10rem;
   padding: 5% 5% 0 65%;
+}
+
+@media (max-width: 479px){
+    .box-login{
+        width: 100%;
+        height: 100%;
+    }
+    .check{
+        position: relative;
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+    #link-remember{
+        margin-left: 32%;
+    }
+    .box-cadas{
+        margin-left: 25%;
+    }
+    .box-signup{
+        width: 80%;
+        margin-left: 13%;
+    }
+    body{
+        background-image: none;
+        background-color: black;
+    }
+    .input-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    .box-login h1{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .img-logo{
+        width: 70px;
+        height: 30px;
+        margin-top: 2%;
+    }
+    .btn_enter{
+        width: 100%;
+        margin-left: 0;
+    }
+    .tlt_footer{
+        display: none;
+    }
+    footer{
+        padding: 0 0 30% 0;
+        margin: 20% 0 20% 0;
+        height: 20%;
+    }
+    .footer-content{
+        padding-top: 10%;
+        padding-bottom: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-links {
+        font-size: 12px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .footer-link-item{
+        padding: 6% 0 0 0;
+    }
+    .footer-content p{
+        margin-left: 10%;
+        margin-bottom: 4%;
+    }
+    .lang-footer{
+        margin-top: 5%;
+        margin-left: 15%;
+    }
 }
