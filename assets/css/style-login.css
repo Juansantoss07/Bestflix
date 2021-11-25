@@ -261,7 +261,10 @@ footer{
     .img-logo{
         width: 70px;
         height: 30px;
-        margin-top: 5%;
+        margin-top: 2%;
+    }
+     .header-site{
+       padding-top: 3%;
     }
     .btn_enter{
         width: 100%;
