@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url(img/fundo-one.jpg);
+}
+.appmont{
+    height: 100%;
+}
+.header-site{
+    padding: 1% 0 3% 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.box{
+    padding: 2% 7% 10% 7%;   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-login{
+    background-color: rgba(0,0,0,.75);
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    color: aliceblue;
+    height: 100%;
+    width: 40%;
+    padding-bottom: 20%;
+}
+.box-login h1{
+    margin: 15% 0 15% 17%;
+    height: 0;
+}
+.input-box{
+    width: 70%;
+    height: 15%;
+    margin: 1% 1% 3% 17%;
+    border-radius: 5px;
+    border: 0 none;
+    outline: 0;
+    padding-left: 5%;
+    background-color: #333333;
+}
+input:-ms-input-placeholder  {
+    font-size:16px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size:16px;
+  }
+
+  input:-moz-placeholder {
+    font-size:16px;
+  }
+
+/* firefox 19+ */
+  input::-moz-placeholder {
+    font-size:16px;
+  }
+
+  .btn_enter{
+      width: 70%;
+      height: 15%;
+      margin: 10% 1% 3% 17%;
+      border-radius: 5px;
+      border: 0 none;
+      outline: 0;
+      background-color: #E50914;
+      color: white;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+  }
+  .login-remember{
+      margin: 0 8% 0 0;
+      color: gray;
+  }
+  #link-remember{
+      text-decoration: none;
+  }
+  #link-remember:hover{
+      text-decoration: underline;
+      color: gray;
+  }
+  #link-facebook{
+      text-decoration: none;
+  }
+  #link-signup{
+      text-decoration: none;
+  }
+  #link-signup:hover{
+      text-decoration: underline;
+  }
+  .check{
+      margin: 0 1% 0 18%;
+      cursor: pointer;
+  }
+  .box-cadas{
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      height: 10%;
+      margin: 12% 1% 3% 18%;
+  }
+  .box-cadas-content, .box-signup-content{ 
+      width: 98%;
+      display: flex;
+  }
+  .box-cadas-content a{
+      width: 100%;
+  }
+  .box-cadas img{
+      width: 20px;
+      height: 20px;
+  }
+  .txt-facebook{
+      margin: 0 0 0 3%;
+      color: gray;
+      font-size: 13px;
+  }
+  .box-signup{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 10%;
+    margin: 1% 1% 3% 18%;
+  }
+.txt-signup{
+    color: gray;
+    font-size: 18px;
+}
+.box-signup a{
+    margin-left: 3%;
+    color: white;
+    font-size: 18px;
+}
+.box-captcha{
+
+    padding: 0 7% 10% 7%;
+}
+.box-captcha-content{
+
+    margin: 0 7% 0 13%;
+}
+.txt-captcha{
+    font-size: 13px;
+    color: gray;
+}
+footer{
+    height: 60%;
+    padding-top: 1px;
+}
+
+
+.footer-content{
+    display: flex;
+    height: 100%;
+    margin-top: 20%;
+    background-color: rgba(0, 0, 0, 0.801);
+    backdrop-filter: blur(15px);
+    flex-direction: column;
+    align-items: start;
+    align-content: space-between;
+    justify-content: center;
+    color: rgba(240, 248, 255, 0.418);
+    padding-left: 10%;
+}
+.footer-content p{
+    margin: 2%; 
+    font: 20;
+    font-weight: 600;
+}
+.footer-links {
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.footer-link-item {
+    padding: 0;
+    margin:0 0;
+    display: inline-block;
+    padding: 2% 4% 0 4%;
+    width: 10rem;
+}
+.footer-link-item a{
+    color: rgba(240, 248, 255, 0.418);
+    text-decoration: none;
+    font-weight: 100;
+}
+.lang-footer{
+    padding: 3% 7% 0 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn_lang-footer{
+    margin: 5% 0 0 0;
+    width: 10rem;
+    background-color: rgba(240, 248, 255, 0);
+    color:aliceblue;
+    height: 2rem;
+    padding: 1% 7% 1% 8%;
+}
+.tlt_footer{
+    padding: 1% 2% 0 3%;
+    margin: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tlt_footer p{
+  width: 10rem;
+  padding: 5% 5% 0 65%;
+}
